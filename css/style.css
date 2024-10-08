@@ -1,0 +1,54 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #212529;
+}
+
+#site-main {
+	
+}
+
+.calendar-door {
+	width: 120px;
+	height: 120px;
+	border: 2px dashed rgb(35, 35, 35);
+	border-radius: 10px;
+	text-align: center;
+	line-height: 120px;
+	display: inline-block;
+	margin: 10px;
+	color: rgb(35, 35, 35);
+	background-size: contain;
+	font-size: 50px;
+  }
+
+.door-number {
+	margin: 0;
+}
+
+#calendar-container {
+	width: 600px;
+	margin: 50px auto;
+	text-align: center;
+  }
+
+#calendar-header {
+	width: 600px;
+	margin: 50px auto;
+	background-color: rgb(198, 187, 187);
+	color: rgb(168, 0, 0);
+	text-align: center;
+	padding: 5opx;
+	font-family: cursive;
+	font-size: 30px;
+}
+
+#calendar-body {
+	width: 600px;
+	height: 720px;
+	padding-top: 15px;
+	background-color: white;
+    min-height: 100vh;
+}
